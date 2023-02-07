@@ -8,8 +8,19 @@ const Navbar = () => {
 
   const handleMouse = () => setMouse(!mouse)
 
+  const [navColor, setNavColor] = useState(false)
+  const changeNavColor = () => {
+    if (window.scrollY >= 100) {
+      setNavColor(true)
+    } else {
+      setNavColor(false)
+    }
+  }
+
+  window.addEventListener('scroll', changeNavColor)
+
   return (
-    <div className='header'>
+    <div className={navColor ? 'header header-bg' : 'header'}>
       <Link to={'/'}>
         <h1>Portfolio</h1>
       </Link>
