@@ -29,7 +29,7 @@ const Navbar = () => {
       </ul>
       <div className='hamburger' onClick={handleMouse}>
         {mouse ? (
-          <FaTimes size={25} style={{ color: 'white' }} />
+          <FaTimes className='navcross' size={25} style={{ color: 'white' }} />
         ) : (
           <FaBars size={25} style={{ color: 'white' }} />
         )}

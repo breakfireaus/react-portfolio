@@ -34,6 +34,11 @@
     transition: .5s;
 }
 
+.navcross{
+    z-index: 101;
+}
+
+
 @media screen and (max-width: 1040px) {
     .nav-menu{
         flex-direction: column;
@@ -45,8 +50,9 @@
         position: absolute;
         top: 0;
         left: -100%;
-        z-index: -4;
+        z-index: 100;
         transition: 0.5s;
+        opacity: 0.8;
     }
 
     .nav-menu.active{
@@ -65,5 +71,7 @@
         color: wheat;
         transition: .5s;
         display: initial;
+        z-index: 101;
+        opacity: 0.8;
     }
 }
