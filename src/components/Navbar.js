@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import './NavbarStyles.css'
 import { FaBars, FaTimes } from 'react-icons/fa'
 
-export const Navbar = () => {
+const Navbar = () => {
   const [mouse, setMouse] = useState(false)
 
   const handleMouse = () => setMouse(!mouse)
@@ -37,3 +37,5 @@ export const Navbar = () => {
     </div>
   )
 }
+
+export default Navbar
