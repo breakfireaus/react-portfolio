@@ -1,4 +1,4 @@
-import './2ndHeroImg.css'
+import './SecondHeroImg.css'
 import React from 'react'
 
 class secondHeroImg extends React.Component {
