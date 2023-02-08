@@ -1,0 +1,44 @@
+.hero-image{
+    position: relative;
+    height: 60vh;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6 );
+}
+
+.hero-image::before{
+content:"" ;
+background: url("https://media.istockphoto.com/id/1147195672/es/foto/codificaci%C3%B3n-de-desarrolladores-enfocada-en-monitores-de-computadora-que-trabajan-hasta-tarde.jpg?s=612x612&w=0&k=20&c=amtjVgPNE62qfL3_EMFGCgmoiGJRO8D0tRLrv9zXSVo=");
+background-position: center top;
+background-size: cover;
+position: absolute;
+top: 0;
+left: 0;
+height: 100%;
+width: 100%;
+z-index: -1;
+}
+
+.heading{
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    
+}
+
+.hero-image h1{ 
+    font-size: 2.2rem;
+}
+
+.hero-image p{ 
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 640px) {
+    .hero-image h1{ 
+        font-size: 1.8rem;
+    }
+}
