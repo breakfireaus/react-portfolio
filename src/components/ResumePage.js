@@ -1,13 +1,11 @@
 import React from 'react'
 import './ResumePageStyle.css'
+import Resume2 from '../assets/Full-Stack-Developer-Matthew_Younger-Chudnovsky-Resume.pdf'
 
 export default function Resume() {
   return (
     <div className='form-container'>
-      <a
-        href='./assets/Full-Stack-Developer-Matthew_Younger-Chudnovsky-Resume.pdf'
-        download='MATTHEW_YOUNGER_CHUDNOVSKY_RESUME'
-      >
+      <a href={Resume2} download='MATTHEW_YOUNGER_CHUDNOVSKY_RESUME'>
         <button id='resume' className='btn'>
           <div className='content'>
             <div className='text'>
