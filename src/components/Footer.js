@@ -1,5 +1,5 @@
 import './FooterStyle.css'
-import { FaFacebook, FaGithub, FaLinkedin } from 'react-icons/fa'
+import { FaStackOverflow, FaGithub, FaLinkedin } from 'react-icons/fa'
 import React from 'react'
 import { Link } from 'react-router-dom'
 
@@ -7,10 +7,10 @@ const Footer = () => {
   return (
     <div className='footer'>
       <div className='footer-container'>
-        <div className='leftside'>
+        <div className='linkIcons'>
           <div className='socialmedia'>
-            <Link to='https://www.facebook.com/money.maker.matty'>
-              <FaFacebook
+            <Link to='https://stackoverflow.com/users/21187328/matthew-younger-chudnovsky'>
+              <FaStackOverflow
                 size={35}
                 style={{ color: 'white', marginRight: '1rem' }}
               />

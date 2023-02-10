@@ -6,15 +6,14 @@
 }
 
 .footer-container{
-    max-width: 1145px;
-    display: grid;
-    margin: auto;
-    grid-template-columns: repeat(2, 2fr);
-    grid-column: 30px;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
     
 }
 
-.leftside{
+.linkIcons{
     height: 100%;
     max-width: 100%;
     display: flex;
