@@ -10,10 +10,10 @@ const ProjectCard = (props) => {
       <div className='project-details'>
         <p>{props.text}</p>
         <div className='project-buttons'>
-          <a to={props.view} className='btn'>
+          <a href={props.view} className='btn' target='_blank'>
             VIEW
           </a>
-          <a to={props.github} className='btn'>
+          <a href={props.github} className='btn' target='_blank'>
             Github
           </a>
         </div>
