@@ -1,6 +1,6 @@
-import './ProjectCardStyle.css'
-import React from 'react'
-import { NavLink } from 'react-router-dom'
+import './ProjectCardStyle.css';
+import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 const ProjectCard = (props) => {
   return (
@@ -10,16 +10,16 @@ const ProjectCard = (props) => {
       <div className='project-details'>
         <p>{props.text}</p>
         <div className='project-buttons'>
-          <NavLink to={props.view} className='btn'>
+          <a to={props.view} className='btn'>
             VIEW
-          </NavLink>
-          <NavLink to={props.github} className='btn'>
+          </a>
+          <a to={props.github} className='btn'>
             Github
-          </NavLink>
+          </a>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default ProjectCard
+export default ProjectCard;
