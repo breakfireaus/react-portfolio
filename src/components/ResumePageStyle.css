@@ -1,24 +1,47 @@
-
-.form-container{
-display: block;
-    align-items: center;
-    justify-content: center;
-    margin: 150px;
-    flex-direction: column;
-    display: flex;
-    align-items: center;
-
+.form-container {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  margin: 150px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
 }
-
+h2 {
+  margin: 20px;
+  padding: 10px 30px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background-color: yellow;
+  color: #222;
+  border: 1.5px solid white;
+  font-weight: 600;
+  cursor: pointer;
+}
 .form-container a {
   color: black;
   margin: 5px 0;
   padding: 5px 0;
 }
-
+.form-container a .btn {
+  margin: 20px;
+  padding: 10px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background-color: yellow;
+  color: #222;
+  border: 1.5px solid white;
+  font-weight: 600;
+  cursor: pointer;
+}
 .form-container a .btn p {
-    color: black;
-    margin: 5px;
-    padding: 5px 0;
-    justify-content: center;
-  }
+  margin: 20px;
+  padding: 10px 30px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background-color: yellow;
+  color: #222;
+  border: 1.5px solid white;
+  font-weight: 600;
+  cursor: pointer;
+}
