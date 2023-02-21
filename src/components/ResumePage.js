@@ -1,6 +1,7 @@
-import React from 'react'
-import './ResumePageStyle.css'
-import Resume2 from '../assets/Full-Stack-Developer-Matthew_Younger-Chudnovsky-Resume.pdf'
+import React from 'react';
+import './ResumePageStyle.css';
+import Resume2 from '../assets/Full-Stack-Developer-Matthew_Younger-Chudnovsky-Resume.pdf';
+import mern from '../assets/Mernstack.jpg';
 
 export default function Resume() {
   return (
@@ -15,6 +16,10 @@ export default function Resume() {
           </div>
         </button>
       </a>
+      <div>
+        <h2 className='techskills'>Technical Skills</h2>
+        <img src={mern} />
+      </div>
     </div>
-  )
+  );
 }

@@ -45,3 +45,11 @@ h2 {
   font-weight: 600;
   cursor: pointer;
 }
+
+.form-container .techskills h2 {
+  color: white;
+}
+img {
+  width: 500px;
+  height: 600px;
+}
