@@ -18,7 +18,7 @@ export default function Resume() {
       </a>
       <div>
         <h2 className='techskills'>Technical Skills</h2>
-        <img src={mern} />
+        <img classname='mernstack' src={mern} />
       </div>
     </div>
   );
