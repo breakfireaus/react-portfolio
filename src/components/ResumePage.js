@@ -25,12 +25,12 @@ export default function Resume() {
           width='600'
           height='400'
         />
-        <h4 className='techskills h4'>Front End</h4>
-        <p className='techskills h4'>
+        <h4 className='techskills-custom'>Front End</h4>
+        <p className='techskills-custom'>
           HTML5, CSS3, Bootstrap, Tailwind, JavaScript, ReactJS
         </p>
-        <h4 className='techskills h4'>Back End</h4>
-        <p className='techskills h4'>
+        <h4 className='techskills-custom'>Back End</h4>
+        <p className='techskills-custom'>
           Node.js, Express.js, MongoDB, MySQL, Sequelize ORM
         </p>
       </div>

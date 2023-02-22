@@ -68,7 +68,7 @@
   }
 
   .btn {
-    position: absolute;
+    /* position: absolute; */
     height: 40px;
     left: 0;
     right: 0;

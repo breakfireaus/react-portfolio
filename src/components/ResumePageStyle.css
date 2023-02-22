@@ -45,7 +45,10 @@ h2 {
   font-weight: 600;
   cursor: pointer;
 }
-
+.techskills {
+  margin: 5px;
+  padding: 5px;
+}
 .form-container .techskills h2 {
   color: white;
   text-align: center;
@@ -65,7 +68,7 @@ h2 {
   text-align: center;
 }
 
-.techskills .h4 {
+.techskills-custom {
   text-align: center;
   margin: 1.4rem 0;
 }
