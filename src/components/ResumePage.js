@@ -17,8 +17,16 @@ export default function Resume() {
         </button>
       </a>
       <div>
-        <h2 className='techskills'>Technical Skills</h2>
-        <img classname='mernstack' src={mern} />
+        <h1 className='techskills'>Technical Skills</h1>
+        <img classname='mernstack' alt='mern stack' src={mern} />
+        <h4 className='techskills h4'>Front End</h4>
+        <p className='techskills h4'>
+          HTML5, CSS3, Bootstrap, Tailwind, JavaScript, ReactJS
+        </p>
+        <h4 className='techskills h4'>Back End</h4>
+        <p className='techskills h4'>
+          Node.js, Express.js, MongoDB, MySQL, Sequelize ORM
+        </p>
       </div>
     </div>
   );

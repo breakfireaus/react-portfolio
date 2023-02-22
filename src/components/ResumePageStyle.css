@@ -60,3 +60,12 @@ h2 {
   width: auto;
   height: auto;
 }
+
+.techskills {
+  text-align: center;
+}
+
+.techskills .h4 {
+  text-align: center;
+  margin: 1.4rem 0;
+}
