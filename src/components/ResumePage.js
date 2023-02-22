@@ -18,7 +18,13 @@ export default function Resume() {
       </a>
       <div>
         <h1 className='techskills'>Technical Skills</h1>
-        <img classname='mernstack' alt='mern stack' src={mern} />
+        <img
+          classname='mernstack'
+          alt='mernstack'
+          src={mern}
+          width='600'
+          height='400'
+        />
         <h4 className='techskills h4'>Front End</h4>
         <p className='techskills h4'>
           HTML5, CSS3, Bootstrap, Tailwind, JavaScript, ReactJS
