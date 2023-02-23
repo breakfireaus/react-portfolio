@@ -30,9 +30,12 @@
   font-size: 1rem;
   color: white;
   padding: 1rem;
-  text-align: justify;
+  text-align: center;
 }
-
+.project-details h5 {
+  color: white;
+  text-align: center;
+}
 .project-buttons {
   display: flex;
   justify-content: space-between;

@@ -5,6 +5,7 @@ import ProjectData from './ProjectCardData'
 import React from 'react'
 
 const Project = () => {
+  console.log({ProjectData})
   return (
     <div className='work-container'>
       <h1 className='project-heading'>Projects</h1>
@@ -18,6 +19,7 @@ const Project = () => {
               text={val.text}
               view={val.view}
               github={val.github}
+              tech={val.tech}
             />
           )
         })}

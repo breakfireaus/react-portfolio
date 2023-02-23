@@ -2,12 +2,14 @@ import './ProjectCardStyle.css';
 import React from 'react';
 
 const ProjectCard = (props) => {
+  console.log(props);
   return (
     <div className='project-card'>
       <img src={props.imagesource} alt='Project Imagery' />
       <h2 className='project-title'>{props.title}</h2>
       <div className='project-details'>
         <p>{props.text}</p>
+        <h5>Tech used</h5>
         <p>{props.tech}</p>
 
         <div className='project-buttons'>
