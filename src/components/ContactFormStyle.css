@@ -1,21 +1,56 @@
-label{
-    color: white;
-    margin-bottom: 1rem;
+label {
+  color: white;
+  margin-bottom: 1rem;
 }
 
-form{
-    display: flex;
-    flex-direction: column;
-    padding: 6rem 1rem;
-    margin: auto;
-    max-width: 600px;
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 6rem 1rem;
+  margin: auto;
+  max-width: 600px;
 }
 
-form input, form textarea{
-    margin-bottom: 1rem;
-    padding: 10px 20px;
-    font-size: 1.3rem;
-    background-color: rgba(255, 255, 255, 0.4);
-    border-color: rgba(255, 255, 255, 0.4);
-color: #f4f4f4;
+form input,
+form textarea {
+  margin-bottom: 1rem;
+  padding: 10px 20px;
+  font-size: 1.3rem;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-color: rgba(255, 255, 255, 0.4);
+  color: #f4f4f4;
+}
+
+.btn {
+  text-align: center;
+  margin: 20px;
+  padding: 10px 30px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background-color: yellow;
+  color: #222;
+  border: 1.5px solid white;
+  font-weight: 600;
+  cursor: pointer;
+  max-width: 600px;
+  align-items: center;
+}
+
+.btn-custom {
+  text-align: center;
+  margin: 20px;
+  padding: 10px 30px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background-color: yellow;
+  color: #222;
+  border: 1.5px solid white;
+  font-weight: 600;
+  cursor: pointer;
+  max-width: 600px;
+  align-items: center;
+}
+
+FaLinkedin {
+  margin-top: 20px;
 }

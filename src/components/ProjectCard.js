@@ -1,6 +1,5 @@
 import './ProjectCardStyle.css';
 import React from 'react';
-import { NavLink } from 'react-router-dom';
 
 const ProjectCard = (props) => {
   return (
@@ -9,10 +8,14 @@ const ProjectCard = (props) => {
       <h2 className='project-title'>{props.title}</h2>
       <div className='project-details'>
         <p>{props.text}</p>
+        <p>{props.tech}</p>
+
         <div className='project-buttons'>
+          {/* eslint-disable-next-line  */}
           <a href={props.view} className='linkbutton' target='_blank'>
             VIEW
           </a>
+          {/* eslint-disable-next-line  */}
           <a href={props.github} className='linkbutton' target='_blank'>
             Github
           </a>
